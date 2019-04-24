@@ -57,11 +57,15 @@ header form {
 
 /* Section */
 
+main {
+	min-height:	calc(100vh - 90px - 14.5rem);
+}
+
 article {
     padding: 20px;
     margin: 25px 200px;
     color: black;
-    background-color: #FFCC47;
+    background-color: #FFEE76;
     font-family: open-sans, sans-serif;
     text-align: center;
 }
@@ -71,16 +75,31 @@ article h1{
     font-weight: bold;
 }
 
+article ul{
+	list-style-type: none;
+	font-size: 16px;
+}
+
 article p{
     font-size: 16px;
 }
 
+h1#titulo_museu {
+	background-color: black;
+}
+
+atributos_museu {
+
+}
+	
+
+
 /* Footer */
 footer{
     text-align: center;
-    position: absolute;
-    bottom: 0px;
+	bottom: 0;
     width: 100%;
+	height: 14.5rem;
 
     background-color: #434343;
 }
