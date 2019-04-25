@@ -116,13 +116,68 @@ section #atributos_museu {
     
 }
 
+/*novo */
+#titulo_atributos{
+    font-family: open-sans, sans-serif;
+    font-size: 20px;
+    color: #1F996C;
+}
+
+#titulo_secoes {
+    margin: 0px auto;
+    width: 50%;
+    padding: 1px;
+}
+
+#titulo_secoes h4 {
+    font-family: open-sans, sans-serif;
+    font-size: 22px;
+    color:  black;
+}
+
+section #atributos_colecoes {
+    background-color: white;
+    text-align: center;
+    font-family: open-sans, sans-serif;
+    font-size: 16px;
+}
+
+#atributos_colecoes ul{
+    list-style-type: none;
+    text-align: center;
+    margin-right: 40px
+}
+
+#atributos_colecoes li{
+    text-align: center;
+    margin: 10px;
+}
+
+section #atributos_atividades {
+    background-color: white;
+    text-align: center;
+    font-family: open-sans, sans-serif;
+    font-size: 16px;
+}
+
+#atributos_atividades ul{
+    list-style-type: none;
+    text-align: center;
+    margin-right: 40px
+}
+
+#atributos_atividades li{
+    text-align: center;
+    margin: 10px;
+}
+
+
 #museu_sobre_img {
    min-width: 25%;
    min-height: 25%;
    max-width: 100%;
    max-height: 100%;
 }
-
 
 #museu_sobre p {
     max-width: 60%;
@@ -131,21 +186,26 @@ section #atributos_museu {
 }
 
  #resultado{
-    position: relative;
+    text-align: center;
     margin: 25px;
 }
 
-#resultado #busca_foto {
-    position: relative;
-    height: 150px;
-    width: 150px;
-    border: 1px solid green;
+#resultado p {
+    text-align: right;
+    color: gray;
+    font-size: 14px; 
 }
 
 #resultado #busca_info {
+    margin: 0px auto;
     position: relative;
     width: calc(100% - 180px);
-    border: 1px solid blue;
+    border-bottom: 1px solid black;
+}
+
+#nome_museu {
+    font-size: 22px;
+    text-align: center;
 }
 
 #campo_titulo {
@@ -154,10 +214,33 @@ section #atributos_museu {
     text-align: left;
 }
 
+#nome_museu a {
+    text-decoration: none;
+    color: black;
+}
+
+#nome_museu a:hover {
+    color: #1F996C;
+}
+
 #campo_info {
     font-size: 16px;
     text-align: left;
     padding: 5px;
+}
+
+#paginacao li {
+    display: inline-block;
+    padding: 10px;
+}
+
+#anterior {
+    color: gray;
+}
+
+#pagina_atual {
+    font-weight: bolder;
+    color: #1F996C;
 }
 
 /* Footer */
